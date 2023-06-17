@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+:root {
+  --background-color: #391206;
+  --text-color: #c9bebb;
+  --fonts: "Open Sans", "Roboto", Arial, Helvetica, sans-serif;
+}
+
+* {
+  font-family: var(--fonts);
+  text-align: center;
+  color: var(--text-color);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 2em;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.5625em;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 1.325em;
+}
+
+a {
+  color: #3c1f1b;
+}
+
+a:hover {
+  color: #544527;
+}
+
+mark {
+  background-color: #544527;
+}
+
+p {
+  color: #c9bebb;
+  font-weight: 300;
+  text-align: justify;
+}
+
+button {
+  background-color: hsl(14, 69%, 30%);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+main {
+  width: min(128ch, calc(100% - 4rem));
+  margin-inline: auto;
+  padding: 1.5rem;
+}
+
+footer {
+  background-color: #1c09037f;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 0.875em;
+}
+
+footer a {
+  color: #c9bebb;
+  text-align: center;
+  font-weight: 300;
+}
+
+.button-primary {
+  background-color: #3d1a1a;
+}
+
+.border {
+  border: 1px solid #42381c;
+}
+
+.accent {
+  color: #4a2534;
+}
+
+.input-field {
+  text-align: left;
+  width: 50%;
+  padding: 10px;
+  font-size: 0.75em;
+  border: 1px solid #42381c;
+  background-color: transparent;
+  outline: none;
+}
+
+.result {
+  margin-top: 20px;
+}
