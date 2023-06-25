@@ -3,6 +3,8 @@
 :root {
   --background-color: #391206;
   --text-color: #c9bebb;
+  --text-background-color: #522323;
+  --border-color: #552B1E;
   --fonts: "Open Sans", "Roboto", Arial, Helvetica, sans-serif;
 }
 
@@ -57,11 +59,13 @@ p {
 }
 
 button {
-  background-color: hsl(14, 69%, 30%);
-  border: none;
-  padding: 10px 20px;
+  background-color: var(--text-background-color);
+  border-color: var(--border-color);
+  border-radius: 1em 1em;
+  border-width: .225em;
+  padding: 0.625em 1.25em;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 0.625em;
 }
 
 div {
@@ -72,7 +76,7 @@ div {
 }
 
 label {
-  margin-bottom: 10px;
+  margin-bottom: 0.625em;
 }
 
 main {
@@ -94,28 +98,22 @@ footer a {
   font-weight: 300;
 }
 
-.button-primary {
-  background-color: #3d1a1a;
-}
-
-.border {
-  border: 1px solid #42381c;
-}
-
 .accent {
   color: #4a2534;
 }
 
-.input-field {
-  text-align: left;
+input {
+  border-radius: 1em 1em;
+  background-color: var(--text-background-color);
+  text-align: center;
   width: 50%;
-  padding: 10px;
+  padding: 0.625em;
   font-size: 0.75em;
-  border: 1px solid #42381c;
-  background-color: transparent;
+  border-color: #552B1E;
+  border-width: .225em;
   outline: none;
 }
 
 .result {
-  margin-top: 20px;
+  margin-top: 1.25em;
 }
