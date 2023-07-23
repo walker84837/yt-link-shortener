@@ -8,12 +8,6 @@ This is a simple web application that allows you to shorten and shorten YouTube 
 - Click the "Convert" button to shorten the link.
 - The converted link will be displayed below the input field.
 
-## What's Different?
-
-This application takes a YouTube link as input and provides a shortened version of the link. It handles different types of YouTube links, including regular video links and YouTube Shorts links.
-
-The link conversion process is done dynamically using JavaScript, which means the conversion happens on the client-side without making any server requests.
-
 ## Contributing
 
 Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please follow these steps:

@@ -5,7 +5,7 @@
   --text-color: #c9bebb;
   --text-background-color: #522323;
   --border-color: #552B1E;
-  --fonts: "Open Sans", "Roboto", Arial, Helvetica, sans-serif;
+  --fonts: "Open Sans", system-ui, sans-serif;
 }
 
 * {
@@ -114,6 +114,6 @@ input {
   outline: none;
 }
 
-.result {
+#converted-link-result {
   margin-top: 1.25em;
 }
